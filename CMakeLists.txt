@@ -1,0 +1,172 @@
+cmake_minimum_required(VERSION 3.21)
+project(jvmcpp)
+
+set(CMAKE_CXX_STANDARD 17)
+
+include_directories(jvmcpp)
+include_directories(./classfile)
+include_directories(./classpath)
+include_directories(./instructions/base)
+include_directories(./instructions/comparisons)
+include_directories(./instructions/constants)
+include_directories(./instructions/control)
+include_directories(./instructions/conversions)
+include_directories(./instructions/extended)
+include_directories(./instructions/loads)
+include_directories(./instructions/math)
+include_directories(./instructions/references)
+include_directories(./instructions/reserved)
+include_directories(./instructions/stack)
+include_directories(./instructions/stores)
+include_directories(./lib)
+include_directories(./native)
+include_directories(./native/java/lang)
+include_directories(./native/sun/misc)
+include_directories(./rtda)
+include_directories(./rtda/heap)
+
+add_executable(jvmcpp
+        ./classfile/attributes.cpp
+        ./classfile/attributes.h
+        ./classfile/classfile.cpp
+        ./classfile/classfile.h
+        ./classfile/classreader.cpp
+        ./classfile/classreader.h
+        ./classfile/constantpool.cpp
+        ./classfile/constantpool.h
+        ./classfile/memberInfo.cpp
+        ./classfile/memberInfo.h
+        ./classpath/classpath.cpp
+        ./classpath/classpath.h
+        ./classpath/entry.cpp
+        ./classpath/entry.h
+        ./instructions/base/base_logic.cpp
+        ./instructions/base/base_logic.h
+        ./instructions/base/bytecode_reader.cpp
+        ./instructions/base/bytecode_reader.h
+        ./instructions/base/instruction.cpp
+        ./instructions/base/instruction.h
+        ./instructions/comparisons/cmp.cpp
+        ./instructions/comparisons/cmp.h
+        ./instructions/comparisons/if.cpp
+        ./instructions/comparisons/if.h
+        ./instructions/comparisons/if_cmp.cpp
+        ./instructions/comparisons/if_cmp.h
+        ./instructions/constants/const.cpp
+        ./instructions/constants/const.h
+        ./instructions/constants/ipush.cpp
+        ./instructions/constants/ipush.h
+        ./instructions/constants/nop.cpp
+        ./instructions/constants/nop.h
+        ./instructions/control/goto.cpp
+        ./instructions/control/goto.h
+        ./instructions/control/return.cpp
+        ./instructions/control/return.h
+        ./instructions/control/switch.cpp
+        ./instructions/control/switch.h
+        ./instructions/conversions/x2x.cpp
+        ./instructions/conversions/x2x.h
+        ./instructions/extended/goto_w.cpp
+        ./instructions/extended/goto_w.h
+        ./instructions/extended/ifnull.cpp
+        ./instructions/extended/ifnull.h
+        ./instructions/extended/wide.cpp
+        ./instructions/extended/wide.h
+        ./instructions/loads/load.cpp
+        ./instructions/loads/load.h
+        ./instructions/loads/xaload.cpp
+        ./instructions/loads/xaload.h
+        ./instructions/math/and.cpp
+        ./instructions/math/and.h
+        ./instructions/math/iinc.cpp
+        ./instructions/math/iinc.h
+        ./instructions/math/rem.cpp
+        ./instructions/math/rem.h
+        ./instructions/math/sh.cpp
+        ./instructions/math/sh.h
+        ./instructions/references/athrow.cpp
+        ./instructions/references/athrow.h
+        ./instructions/references/field.cpp
+        ./instructions/references/field.h
+        ./instructions/references/instanceof.cpp
+        ./instructions/references/instanceof.h
+        ./instructions/references/invokeinterface.cpp
+        ./instructions/references/invokeinterface.h
+        ./instructions/references/invokespecial.cpp
+        ./instructions/references/invokespecial.h
+        ./instructions/references/invokestatic.cpp
+        ./instructions/references/invokestatic.h
+        ./instructions/references/invokevirtual.cpp
+        ./instructions/references/invokevirtual.h
+        ./instructions/references/ldc.cpp
+        ./instructions/references/ldc.h
+        ./instructions/references/multianewarray.cpp
+        ./instructions/references/multianewarray.h
+        ./instructions/references/new.cpp
+        ./instructions/references/new.h
+        ./instructions/references/newarray.cpp
+        ./instructions/references/newarray.h
+        ./instructions/references/static.cpp
+        ./instructions/references/static.h
+        ./instructions/reserved/invokenative.cpp
+        ./instructions/reserved/invokenative.h
+        ./instructions/stack/dup.cpp
+        ./instructions/stack/dup.h
+        ./instructions/stack/pop.cpp
+        ./instructions/stack/pop.h
+        ./instructions/stack/swap.cpp
+        ./instructions/stack/swap.h
+        ./instructions/stores/store.cpp
+        ./instructions/stores/store.h
+        ./instructions/stores/xastore.cpp
+        ./instructions/stores/xastore.h
+        ./lib/cmdline.h
+        ./lib/miniz.h
+        ./lib/zip.cpp
+        ./lib/zip.h
+        ./native/java/lang/Class0.cpp
+        ./native/java/lang/Class0.h
+        ./native/java/lang/Double0.cpp
+        ./native/java/lang/Double0.h
+        ./native/java/lang/Float0.cpp
+        ./native/java/lang/Float0.h
+        ./native/java/lang/Object0.cpp
+        ./native/java/lang/Object0.h
+        ./native/java/lang/String0.cpp
+        ./native/java/lang/String0.h
+        ./native/java/lang/System0.cpp
+        ./native/java/lang/System0.h
+        ./native/java/lang/Throwable0.cpp
+        ./native/java/lang/Throwable0.h
+        ./native/sun/misc/VM.cpp
+        ./native/sun/misc/VM.h
+        ./native/registry.cpp
+        ./native/registry.h
+        ./rtda/heap/access_flags.h
+        ./rtda/heap/class.cpp
+        ./rtda/heap/class.h
+        ./rtda/heap/class_loader.cpp
+        ./rtda/heap/class_loader.h
+        ./rtda/heap/class_member.cpp
+        ./rtda/heap/class_member.h
+        ./rtda/heap/method_descriptor.cpp
+        ./rtda/heap/method_descriptor.h
+        ./rtda/heap/object.cpp
+        ./rtda/heap/object.h
+        ./rtda/heap/runtimeconstantpool.cpp
+        ./rtda/heap/runtimeconstantpool.h
+        ./rtda/heap/slots.cpp
+        ./rtda/heap/slots.h
+        ./rtda/heap/string_pool.cpp
+        ./rtda/heap/string_pool.h
+        ./rtda/frame.cpp
+        ./rtda/frame.h
+        ./rtda/thread.cpp
+        ./rtda/thread.h
+        ./cmd.cpp
+        ./cmd.h
+        ./interpreter.cpp
+        ./interpreter.h
+        ./jvm.cpp
+        ./jvm.h
+        ./jvmcpp.cpp)

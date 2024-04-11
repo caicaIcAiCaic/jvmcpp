@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="jvmcpp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/c/cppjvm-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c/cppjvm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="F:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c/cppjvm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c/cppjvm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c/cppjvm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jvmcpp">
+				<Option output="E:/c/cppjvm-master/cmake-build-debug/jvmcpp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/c/cppjvm-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/c/cppjvm-master/jvmcpp"/>
+					<Add directory="E:/c/cppjvm-master/./classfile"/>
+					<Add directory="E:/c/cppjvm-master/./classpath"/>
+					<Add directory="E:/c/cppjvm-master/./instructions/base"/>
+					<Add directory="E:/c/cppjvm-master/./instructions/comparisons"/>
+					<Add directory="E:/c/cppjvm-master/./instructions/constants"/>
+					<Add directory="E:/c/cppjvm-master/./instructions/control"/>
+					<Add directory="E:/c/cppjvm-master/./instructions/conversions"/>
+					<Add directory="E:/c/cppjvm-master/./instructions/extended"/>
+					<Add directory="E:/c/cppjvm-master/./instructions/loads"/>
+					<Add directory="E:/c/cppjvm-master/./instructions/math"/>
+					<Add directory="E:/c/cppjvm-master/./instructions/references"/>
+					<Add directory="E:/c/cppjvm-master/./instructions/reserved"/>
+					<Add directory="E:/c/cppjvm-master/./instructions/stack"/>
+					<Add directory="E:/c/cppjvm-master/./instructions/stores"/>
+					<Add directory="E:/c/cppjvm-master/./lib"/>
+					<Add directory="E:/c/cppjvm-master/./native"/>
+					<Add directory="E:/c/cppjvm-master/./native/java/lang"/>
+					<Add directory="E:/c/cppjvm-master/./native/sun/misc"/>
+					<Add directory="E:/c/cppjvm-master/./rtda"/>
+					<Add directory="E:/c/cppjvm-master/./rtda/heap"/>
+					<Add directory="F:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="F:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="F:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="F:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="F:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="F:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c/cppjvm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 jvmcpp"/>
+					<CompileFile command="F:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c/cppjvm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c/cppjvm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c/cppjvm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jvmcpp/fast">
+				<Option output="E:/c/cppjvm-master/cmake-build-debug/jvmcpp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/c/cppjvm-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/c/cppjvm-master/jvmcpp"/>
+					<Add directory="E:/c/cppjvm-master/./classfile"/>
+					<Add directory="E:/c/cppjvm-master/./classpath"/>
+					<Add directory="E:/c/cppjvm-master/./instructions/base"/>
+					<Add directory="E:/c/cppjvm-master/./instructions/comparisons"/>
+					<Add directory="E:/c/cppjvm-master/./instructions/constants"/>
+					<Add directory="E:/c/cppjvm-master/./instructions/control"/>
+					<Add directory="E:/c/cppjvm-master/./instructions/conversions"/>
+					<Add directory="E:/c/cppjvm-master/./instructions/extended"/>
+					<Add directory="E:/c/cppjvm-master/./instructions/loads"/>
+					<Add directory="E:/c/cppjvm-master/./instructions/math"/>
+					<Add directory="E:/c/cppjvm-master/./instructions/references"/>
+					<Add directory="E:/c/cppjvm-master/./instructions/reserved"/>
+					<Add directory="E:/c/cppjvm-master/./instructions/stack"/>
+					<Add directory="E:/c/cppjvm-master/./instructions/stores"/>
+					<Add directory="E:/c/cppjvm-master/./lib"/>
+					<Add directory="E:/c/cppjvm-master/./native"/>
+					<Add directory="E:/c/cppjvm-master/./native/java/lang"/>
+					<Add directory="E:/c/cppjvm-master/./native/sun/misc"/>
+					<Add directory="E:/c/cppjvm-master/./rtda"/>
+					<Add directory="E:/c/cppjvm-master/./rtda/heap"/>
+					<Add directory="F:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="F:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="F:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="F:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="F:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="F:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c/cppjvm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 jvmcpp/fast"/>
+					<CompileFile command="F:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c/cppjvm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c/cppjvm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c/cppjvm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/c/cppjvm-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c/cppjvm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="F:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c/cppjvm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c/cppjvm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c/cppjvm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/c/cppjvm-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c/cppjvm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="F:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c/cppjvm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c/cppjvm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/c/cppjvm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/c/cppjvm-master/classfile/attributes.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/classfile/attributes.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/classfile/classfile.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/classfile/classfile.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/classfile/classreader.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/classfile/classreader.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/classfile/constantpool.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/classfile/constantpool.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/classfile/memberInfo.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/classfile/memberInfo.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/classpath/classpath.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/classpath/classpath.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/classpath/entry.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/classpath/entry.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/cmd.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/cmd.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/base/base_logic.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/base/base_logic.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/base/bytecode_reader.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/base/bytecode_reader.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/base/instruction.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/base/instruction.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/comparisons/cmp.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/comparisons/cmp.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/comparisons/if.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/comparisons/if.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/comparisons/if_cmp.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/comparisons/if_cmp.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/constants/const.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/constants/const.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/constants/ipush.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/constants/ipush.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/constants/nop.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/constants/nop.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/control/goto.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/control/goto.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/control/return.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/control/return.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/control/switch.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/control/switch.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/conversions/x2x.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/conversions/x2x.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/extended/goto_w.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/extended/goto_w.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/extended/ifnull.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/extended/ifnull.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/extended/wide.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/extended/wide.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/loads/load.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/loads/load.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/loads/xaload.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/loads/xaload.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/math/and.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/math/and.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/math/iinc.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/math/iinc.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/math/rem.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/math/rem.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/math/sh.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/math/sh.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/references/athrow.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/references/athrow.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/references/field.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/references/field.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/references/instanceof.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/references/instanceof.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/references/invokeinterface.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/references/invokeinterface.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/references/invokespecial.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/references/invokespecial.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/references/invokestatic.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/references/invokestatic.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/references/invokevirtual.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/references/invokevirtual.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/references/ldc.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/references/ldc.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/references/multianewarray.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/references/multianewarray.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/references/new.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/references/new.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/references/newarray.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/references/newarray.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/references/static.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/references/static.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/reserved/invokenative.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/reserved/invokenative.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/stack/dup.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/stack/dup.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/stack/pop.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/stack/pop.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/stack/swap.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/stack/swap.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/stores/store.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/stores/store.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/stores/xastore.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/instructions/stores/xastore.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/interpreter.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/interpreter.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/jvm.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/jvm.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/jvmcpp.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/lib/cmdline.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/lib/miniz.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/lib/zip.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/lib/zip.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/native/java/lang/Class0.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/native/java/lang/Class0.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/native/java/lang/Double0.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/native/java/lang/Double0.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/native/java/lang/Float0.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/native/java/lang/Float0.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/native/java/lang/Object0.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/native/java/lang/Object0.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/native/java/lang/String0.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/native/java/lang/String0.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/native/java/lang/System0.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/native/java/lang/System0.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/native/java/lang/Throwable0.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/native/java/lang/Throwable0.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/native/registry.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/native/registry.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/native/sun/misc/VM.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/native/sun/misc/VM.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/rtda/frame.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/rtda/frame.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/rtda/heap/access_flags.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/rtda/heap/class.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/rtda/heap/class.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/rtda/heap/class_loader.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/rtda/heap/class_loader.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/rtda/heap/class_member.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/rtda/heap/class_member.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/rtda/heap/method_descriptor.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/rtda/heap/method_descriptor.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/rtda/heap/object.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/rtda/heap/object.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/rtda/heap/runtimeconstantpool.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/rtda/heap/runtimeconstantpool.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/rtda/heap/slots.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/rtda/heap/slots.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/rtda/heap/string_pool.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/rtda/heap/string_pool.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/rtda/thread.cpp">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/rtda/thread.h">
+			<Option target="jvmcpp"/>
+		</Unit>
+		<Unit filename="E:/c/cppjvm-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
